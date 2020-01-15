@@ -9,8 +9,10 @@ export class HomePage {
 
   constructor() {}
 
-  onGoToAppareils() {
+  text = 'Default starting text';
 
+  onChangeText() {
+    this.text = 'Changed!';
   }
 
 }
